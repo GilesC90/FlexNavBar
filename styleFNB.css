@@ -1,0 +1,46 @@
+@font-face {
+    font-family: Google;
+    src: url(/Users/gilescardenas/Documents/Basic-HTML/Week1/Sept15/assignments/FlexNavbar/Roboto/Roboto-Light.ttf);
+}
+
+
+
+.nav{
+    background-color: gray;
+    align-items: stretch;
+    display: flex;
+    font-family: Google;
+}
+
+
+
+.nav-title{
+    display: inline-block;
+    margin-left: 10px;
+    color: whitesmoke; 
+    
+    
+}
+.nav-links{
+    display: flex;
+    width: 1400px;
+    align-items: center;
+    justify-content: flex-end;
+}
+li{
+    display: inline-block;
+    margin-right: 10px;
+}
+a:link{
+    text-decoration: none;
+    color: whitesmoke;
+}
+a:hover{
+    color: powderblue;
+}
+.btn{
+    color: whitesmoke;
+    background-color: darkcyan;
+    border-color: black;
+    box-shadow: 5px 5px 5px black;
+}
